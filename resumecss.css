@@ -1,0 +1,123 @@
+body{
+   background-color:#22223b;
+  color:white;
+  font-size: large;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color:#fca311;
+}
+
+.img{
+    right:0;
+    top: 50px;
+}
+
+.profile img{
+    margin-top: 35vh;
+    margin-left: 45%;
+    border:2px solid #fca311;
+    border-radius: 5rem;
+    box-shadow: #fca311;
+}
+
+.head{
+    color:white;
+    padding:5px 2%;
+    padding-right: 40px;
+    left:0;
+    top:0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+align-items: center;
+    background:#3d405b;
+
+}
+
+
+.logo{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a{
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+    transiton:.03s;
+}
+
+.menu a:hover {
+    color:#fca311;
+}
+
+.home{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-top:30vh;
+    padding:12px 5%;
+
+}
+
+
+
+.buttonh a{
+    
+    font-size: large;
+    color:white;
+    text-decoration: none;
+    border:1px solid none;
+    background-color: #fca311;
+    border-radius: 2rem;
+    padding:10px;
+}
+
+.buttonh a:hover{
+    color:#fca311;
+    background-color: aliceblue;
+    border:2.2px solid #fca311;
+}
+
+.para{
+    max-width: 600px;
+}
+
+.icons{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+    
+.icons a{
+    display: inline-flex;
+    border:1px solid #fca311;
+    border-radius: 45%;
+    color:#fca311;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 35px;
+   
+}
+
+.icons a:hover{
+    color:white;
+    border:2px solid whitesmoke;
+}
+
+
+.frontalign{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
